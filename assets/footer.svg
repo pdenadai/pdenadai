@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130" role="img" aria-label="Sempre construindo o próximo sistema">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060a14"/>
+      <stop offset="1" stop-color="#160c30"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="130" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="130" fill="url(#bg)"/>
+    <path fill="url(#neon)" fill-opacity="0.28" d="M0 92 Q75 72 150 92 T300 92 T450 92 T600 92 T750 92 T900 92 T1050 92 T1200 92 T1350 92 T1500 92 T1650 92 T1800 92 T1950 92 T2100 92 T2250 92 T2400 92 L2400 130 L0 130 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="14s" repeatCount="indefinite"/>
+    </path>
+    <path fill="url(#neon)" fill-opacity="0.45" d="M0 106 Q75 90 150 106 T300 106 T450 106 T600 106 T750 106 T900 106 T1050 106 T1200 106 T1350 106 T1500 106 T1650 106 T1800 106 T1950 106 T2100 106 T2250 106 T2400 106 L2400 130 L0 130 Z">
+      <animateTransform attributeName="transform" type="translate" from="-1200 0" to="0 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <text x="600" y="52" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="18" letter-spacing="3" fill="#94a3b8">sempre construindo o próximo sistema</text>
+  </g>
+</svg>
